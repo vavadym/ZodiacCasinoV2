@@ -1,0 +1,6 @@
+module Pods_ZodiacCasino {
+  umbrella header "Pods-ZodiacCasino-umbrella.h"
+
+  export *
+  module * { export * }
+}
