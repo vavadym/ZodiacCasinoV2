@@ -73,7 +73,7 @@ class IAPManager: NSObject, SKProductsRequestDelegate, SKPaymentTransactionObser
     
     func requestDidFinish(_ request: SKRequest) {
         guard request is SKProductsRequest else {
-            request.start()
+            fetchProducts()
             return
         }
         print("Product fetch request failed")
